@@ -77,9 +77,17 @@ footer,
 
 .thirdSection {
   background-color: #E5E7EB;
-  padding: 100px 300px;
+  padding: 100px 100px;
+  margin: 0px, 200px;
   flex-direction: column;
   align-items: center;
+}
+.thirdSection-text {
+  z-index: 1;
+  background-color: #f9faf89a;
+  padding: 20px;
+  box-shadow: #424242 5px 5px 5px;
+  display: flex;
 }
 .quote-text {
   font-size: 36px;
@@ -91,16 +99,14 @@ footer,
   font-weight: bold;
   align-self: flex-end;
 }
+.thirdSection > img {
+  width: 450px;
+  position: absolute;
+}
 
 .secondSection,
 .fourthSection {
   background-color: white;
-}
-
-.firstSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .left-links {
@@ -135,8 +141,8 @@ footer,
 }
 
 header {
-  display: flex;
   justify-content: space-between;
+  
 }
 
 .call-to-action {
