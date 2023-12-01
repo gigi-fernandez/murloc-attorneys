@@ -1,0 +1,155 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+h3 {
+  color: white;
+  font-size: 24px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9faf8;
+  padding: 10px;
+}
+
+.button {
+  width: 100px;
+  height: 20px;
+  border-radius: 6px;
+  color: white;
+  background-color: #3882F6;
+  padding: 4px 10px;
+  text-align: center;
+}
+.sign-up-button {
+  border: 1px solid white;
+}
+
+.big-image {
+  width: 600px;
+  height: auto;
+  box-shadow: 5px 5px 5px #424242;
+}
+.card-image {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px rgb(206, 165, 52);
+}
+
+header,
+.firstSection,
+.secondSection,
+.thirdSection,
+.fourthSection,
+footer {
+  padding: 20px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header,
+footer,
+.firstSection {
+  background-color: #394b64;
+  color: white;
+}
+
+.thirdSection {
+  background-color: #E5E7EB;
+  padding: 100px 300px;
+  flex-direction: column;
+  align-items: center;
+}
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  width: 900px;
+}
+.author-text {
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.secondSection,
+.fourthSection {
+  background-color: white;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-links {
+  display: flex;
+  gap: 10px;
+}
+.left-links > a {
+  padding: 10px;
+}
+
+.firstLeftSide {
+  display: flex;
+  flex-direction: column;
+  text-wrap: wrap;
+  width: 600px;
+  padding: 20px;
+}
+
+.secondSection {
+  flex-direction: column;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.card > p {
+  text-align: center;
+  text-wrap: wrap;
+  color: #424242;
+  width: 225px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-to-action {
+  background-color: #3882F6;
+  border-radius: 8px;
+  width: 1000px;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cta-text > * {
+  color: white;
+  padding: 5px;
+  margin: 0px;
+}
